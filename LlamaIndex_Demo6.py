@@ -61,7 +61,7 @@ def hybrid_retrieve_and_rerank(query_bundle):
     # 调用智谱重排API（参数格式严格对齐官方要求）
     url = "https://ai.gitee.com/v1/rerank"
     headers = {
-        "Authorization": f"Bearer 6HOQLKHJXMCAV7AT4V3CFXOXYVCMMPMKPPS2KXM2",
+        "Authorization": "Bearer 6HOQLKHJXMCAV7AT4V3CFXOXYVCMMPMKPPS2KXM2",
         "Content-Type": "application/json"
     }
     data = {
